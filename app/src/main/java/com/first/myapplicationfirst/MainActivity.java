@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 /**
- * @author am3dam2
+ * @author Rodrigo
  */
 
 public class MainActivity extends AppCompatActivity {

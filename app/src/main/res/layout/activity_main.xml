@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -20,8 +21,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username">
-
+            android:hint="Username"
+            android:background="@android:color/holo_purple">
         </EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -43,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
+            android:background="@android:color/holo_purple"
             android:inputType="textPassword">
 
         </EditText>
@@ -54,7 +56,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:hint="ENTRAR"
+        android:hint="LOGIN"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/til2"
         app:layout_constraintEnd_toEndOf="@id/guideline4">
@@ -80,7 +82,20 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="472dp" />
+        android:text="@string/register_text"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/button1"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/guideline2"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/til1"
+        app:srcCompat="@mipmap/calendar_foreground"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="myButton">
+    <style name="buttonInverse" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/teal_200</item>
         <item name="android:layout_marginTop">10dp</item>
-        <item name="android:background">@color/teal_200</item>
-    </style>
-
-    <style name="buttonInverse" parent="myButton">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:textColor">@color/purple_500</item>
     </style>
 </resources>

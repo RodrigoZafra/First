@@ -8,6 +8,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
+        android:id="@+id/girl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitStart">
@@ -84,7 +85,7 @@
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/button_custom"
         android:hint="LOGIN"
-        android:onClick="onClick"
+        android:onClick="openMain"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/til2"></Button>
@@ -119,6 +120,7 @@
         android:id="@+id/button"
         style="@style/buttonInverse"
         android:text="REGISTER"
+        android:onClick="openSignup"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/button1" />

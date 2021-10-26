@@ -9,4 +9,14 @@
         <item name="strokeColor">@color/teal_200</item>
         <item name="android:layout_marginTop">10dp</item>
     </style>
+
+    <style name="registerButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/fucsia2</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:backgroundTint">@color/fucsia2</item>
+    </style>
 </resources>

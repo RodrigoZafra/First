@@ -22,7 +22,11 @@ public class LoginActivity extends AppCompatActivity {
 
         ImageView mGirl = findViewById(R.id.girl);
 
-        Glide.with(this).load(R.drawable.girl).transition(DrawableTransitionOptions.withCrossFade(500)).centerCrop().into(mGirl);
+        Glide.with(this)
+                .load(R.drawable.girl)
+                .transition(DrawableTransitionOptions
+                        .withCrossFade(500))
+                .into(mGirl);
     }
 
     public void openMain(View v){

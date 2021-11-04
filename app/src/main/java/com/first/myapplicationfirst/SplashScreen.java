@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -15,7 +19,15 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         openApp(true);
+
+        ImageView mSea = findViewById(R.id.backView);
+        Glide.with(this)
+                .load("https://images.unsplash.com/photo-1590126759486-61d07f267fed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80")
+                .transition(DrawableTransitionOptions.withCrossFade(100))
+                .centerCrop()
+                .into(mSea);
     }
+
 
     /*public void openLogin(View v){
         Intent intent = new Intent(SplashScreen.this,LoginActivity.class);
@@ -33,6 +45,6 @@ public class SplashScreen extends AppCompatActivity {
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
-        },2000);
+        },4000);
     }
 }

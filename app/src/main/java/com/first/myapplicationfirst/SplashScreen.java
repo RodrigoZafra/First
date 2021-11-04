@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -19,6 +21,11 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         openApp(true);
+
+        //Hacer animación del rayo del splah
+        ImageView mThunder = findViewById(R.id.thunder);
+        Animation myAnim = AnimationUtils.loadAnimation(this,R.anim.fadein);
+        mThunder.startAnimation(myAnim);
 
         ImageView mSea = findViewById(R.id.backView);
         Glide.with(this)

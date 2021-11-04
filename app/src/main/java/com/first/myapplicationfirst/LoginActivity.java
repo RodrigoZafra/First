@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -19,6 +21,10 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        ImageView myRotate = findViewById(R.id.loginThunder);
+        Animation rotate = AnimationUtils.loadAnimation(this,R.anim.rotate);
+        myRotate.startAnimation(rotate);
 
         ImageView mGirl = findViewById(R.id.girl);
 

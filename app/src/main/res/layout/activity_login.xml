@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="Username"></EditText>
+            android:hint="Username"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -86,6 +86,7 @@
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/button_custom"
         android:hint="LOGIN"
+        android:hintTextColor="#37474F"
         android:onClick="openMain"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
         app:layout_constraintStart_toStartOf="@id/guideline2"
@@ -111,6 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/register_text"
+        android:textColor="#212121"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
         app:layout_constraintStart_toStartOf="@id/guideline2"
@@ -131,7 +133,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rodrigo guapo"
+        android:textColor="#FFF3E0"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="217dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="217dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

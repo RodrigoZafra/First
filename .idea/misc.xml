@@ -3,35 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/Thunder_background.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/Thunder_foreground.xml" value="0.23645833333333333" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/account_background.xml" value="0.22135416666666666" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/account_foreground.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/calendar_background.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/email_background.xml" value="0.23645833333333333" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/email_foreground.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/gradient.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_thunder.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/my_launcher_background.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/my_launcher_foreground.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Perfiles/am2dam2/First/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main2.xml" value="0.1" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_signup.xml" value="0.33" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/Thunder.xml" value="0.23645833333333333" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/account.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/account_round.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/calendar.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/calendar_round.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/email.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/email_round.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/my_launcher.xml" value="0.3828125" />
-        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/my_launcher_round.xml" value="0.3828125" />
       </map>
     </option>
   </component>

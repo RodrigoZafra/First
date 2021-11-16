@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable-anydpi/fav.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable-anydpi/menu_navegable.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/Thunder_background.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/Thunder_foreground.xml" value="0.23645833333333333" />
@@ -11,16 +13,19 @@
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/calendar_background.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/email_background.xml" value="0.23645833333333333" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/email_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/favorite.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/gradient.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_thunder.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/my_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/my_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/search.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_signup.xml" value="0.33" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/menu/menu_appbar.xml" value="0.3398148148148148" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/menu/menu_context.xml" value="0.36666666666666664" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/Thunder.xml" value="0.23645833333333333" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/account.xml" value="0.3828125" />

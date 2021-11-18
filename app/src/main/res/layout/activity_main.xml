@@ -6,12 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:id="@+id/myMainConstraint">
-
-    <TextView
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipe">
+    <WebView
         android:text="Tap me long"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textTap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vistaWeb"
         tools:ignore="MissingConstraints"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,4 +22,6 @@
         android:textColor="@color/teal_700"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

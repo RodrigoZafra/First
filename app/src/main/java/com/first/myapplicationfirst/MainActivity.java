@@ -3,6 +3,7 @@ package com.first.myapplicationfirst;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,26 +11,48 @@ import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
+    private SwipeRefreshLayout swipeLayout;
+    private WebView vistaWeb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView myContext = findViewById(R.id.textTap);
-        registerForContextMenu(myContext);
+        vistaWeb = (WebView) findViewById(R.id.vistaWeb);
+        registerForContextMenu(vistaWeb);
+
+        vistaWeb.getSettings().setBuiltInZoomControls(true);
+        vistaWeb.loadUrl("https://thispersondoesnotexist.com");
+
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout.setOnRefreshListener(mOnRefreshListener);
     }
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         getMenuInflater().inflate(R.menu.menu_context, menu);
     }
+
+    protected SwipeRefreshLayout.OnRefreshListener
+            mOnRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
+        @Override
+        public void onRefresh() {
+            Toast toast0 = Toast.makeText(MainActivity.this, "Hola, no existo!", Toast.LENGTH_LONG);
+            toast0.show();
+
+            vistaWeb.reload();
+
+            swipeLayout.setRefreshing(false);
+        }
+    };
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
@@ -66,12 +89,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {//Gestiona las acciones sobre los botones
         int id = item.getItemId();
-        if(id == R.id.search){
-            Toast toast = Toast.makeText(this,"infecting",Toast.LENGTH_LONG);
+        if (id == R.id.search) {
+            Toast toast = Toast.makeText(this, "infecting", Toast.LENGTH_LONG);
             toast.show();
         }
-        if(id==R.id.favorite){
-            Toast toast = Toast.makeText(this,"Me gusta!",Toast.LENGTH_LONG);
+        if (id == R.id.favorite) {
+            Toast toast = Toast.makeText(this, "Me gusta!", Toast.LENGTH_LONG);
             toast.show();
         }
         return super.onOptionsItemSelected(item);

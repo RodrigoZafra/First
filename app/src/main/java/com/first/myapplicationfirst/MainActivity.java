@@ -1,10 +1,12 @@
 package com.first.myapplicationfirst;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -15,11 +17,16 @@ import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private SwipeRefreshLayout swipeLayout;
     private WebView vistaWeb;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +42,51 @@ public class MainActivity extends AppCompatActivity {
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
     }
+
+    public void showAlertDialogButtonClicked(MainActivity mainActivity) {
+        MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
+
+        builder.setTitle("Achtung!");
+        builder.setMessage("Where do you go?");
+        builder.setIcon(R.drawable.usericon);
+        builder.setCancelable(false);
+
+        builder.setPositiveButton("Signup", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Intent intent = new Intent(MainActivity.this, Signup.class);
+                startActivity(intent);
+                dialogInterface.dismiss();
+            }
+        });
+
+        builder.setNegativeButton("Do nothing", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+
+        builder.setNeutralButton("Other", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    /*public void showAccountDialogButtonClicked(MainActivity mainActivity){
+        String[] items = new String[]{"rodrifdt17@gmail.com", "natzafr@gmail.com", "javierz@gmail.com"};
+        MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
+                builder.setTitle("Accounts");
+                builder.setItems(items);
+        }
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }*/
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -97,6 +149,11 @@ public class MainActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(this, "Me gusta!", Toast.LENGTH_LONG);
             toast.show();
         }
+
+        if (id == R.id.signOut) {
+            showAlertDialogButtonClicked(MainActivity.this);
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }

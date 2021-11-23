@@ -17,8 +17,8 @@
         app:showAsAction="never"
         android:title="Sign Out"/>
     <item
-        android:id="@+id/about"
+        android:id="@+id/Accounts"
         app:showAsAction="never"
-        android:title="About us"/>
+        android:title="Other Accounts"/>
 
 </menu>

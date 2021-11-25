@@ -7,7 +7,7 @@
   con unos rayos de tormenta y debajo del logo el nombre de la aplicación que es **STORMING**. La fuente de la pantalla de splash es prisma.
   Al iniciar la aplicación tenemos una pequeña animación en el logo para que parpadee dando una sensación de tormenta y el fondo también es una tormenta para que todo
   sea esteticamente igual y tenga la misma temática. Para crear la animación he creado una carpeta en res llamada anim y dentro dos animated resource file con el código
-  necesario para crear la animación ![issue tab](. La animación se puede observar en el gif siguiente:
+  necesario para crear la animación ![issue tab](). La animación se puede observar en el gif siguiente:
   
   ![issue tab](img/splashScreen.gif)
 #### 2. Creación de la ventana de login:

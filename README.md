@@ -14,7 +14,7 @@
   En el activity_login nos volvemos a encontrar con el icono del logo en la parte superior. También tenemos dos **TextInputLayaout** uno para el nombre de usuario y otro
   para la password. Justo debajo nos encontramos con dos botones uno para hacer el login y entrar a la aplicación y otro para registrarse en el caso de que no lo estes.
   Está ventana tiene una ![animación](app/src/main/res/anim/rotate.xml) para que el logo baje de la parte superior con una pequeña rotación. De fondo de la ventana
-  tenemos un ![gradiente](app/src/main/res/anim/fadein.xml) desde un azul cyan hasta un fucsia y una imágen de una chica de fondo.
+  tenemos un ![gradiente](app/src/main/res/drawable/gradient.xml) desde un azul cyan hasta un fucsia y una imágen de una chica de fondo.
   
   ![issue tab](img/login.gif)
 #### 3. Creación de la ventana de registro:
@@ -23,4 +23,10 @@
   
   ![issue tab](img/img_2.PNG)
 #### 4. Creación del main:
-  El activity_main 
+  El activity_main contiene una barra superior en la que aparece el nombre de la aplicación y un menú con una lupa para buscar, un corazón para dar me gusta y un submenu
+  que te permite salir de tu cuenta o elegir otras cuentas que tengas. Al pulsar en la lupa aparece un mensaje que es un Toast que dice infecting, y al pulsar el corazón
+  aparece un mensaje que dice me gusta. Cuando pulsamos el botón de sign out del submenu nos aparece un alert dialog que no dice si queremos salir o no.
+  Como centro de la ventana tenemos una librería de imágenes y un swipeRefreshLayout para ir cambiando de imágen. Si dejamos pulsada la imágen nos sale un menú que nos 
+  dice si queremos copiarla o descargarla. En el siguiente gif podemos observar todas las animaciones de la ventana.
+  
+    ![issue tab](img/main.gif)

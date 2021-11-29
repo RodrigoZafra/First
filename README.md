@@ -31,3 +31,10 @@ Todo el código de la aplicación se encuentra en la rama material login.
   dice si queremos copiarla o descargarla. En el siguiente gif podemos observar todas las animaciones de la ventana.
   
   ![issue tab](img/main.gif)
+  
+  La aplicación finalmente quedaria así. Hay algunos cambios respecto a las otras imágenes como el gradiente de fondo y el icono de la aplicación que ahora tiene un
+  fondo blanco para que el logo sea mas visible:
+  
+  ![issue tab](img/aplicacion.gif)
+
+  

@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_thunder_launcher"
+        android:icon="@mipmap/storming"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_thunder_launcher_round"
+        android:roundIcon="@mipmap/storming_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationFirst">
         <activity

@@ -17,9 +17,13 @@
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/gradient.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_thunder.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_thunder_launcher.xml" value="0.23645833333333333" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_thunder_launcher_icon.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/ic_thunder_launcher_v2.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/my_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/my_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/search.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/usericon.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main.xml" value="0.3202247191011236" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main2.xml" value="0.1" />
@@ -28,6 +32,7 @@
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/menu/menu_appbar.xml" value="0.3398148148148148" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/menu/menu_context.xml" value="0.36666666666666664" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/Thunder.xml" value="0.23645833333333333" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/Thunder_round.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/account.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/account_round.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/calendar.xml" value="0.3828125" />
@@ -36,6 +41,8 @@
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/email_round.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/ic_thunder_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/ic_thunder_launcher_round.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/my_launcher.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/my_launcher_round.xml" value="0.3828125" />
       </map>

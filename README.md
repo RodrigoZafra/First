@@ -14,9 +14,9 @@
   En el activity_login nos volvemos a encontrar con el icono del logo en la parte superior. También tenemos dos **TextInputLayaout** uno para el nombre de usuario y otro
   para la password. Justo debajo nos encontramos con dos botones uno para hacer el login y entrar a la aplicación y otro para registrarse en el caso de que no lo estes.
   
-  ![issue tab](img/img_1.png)
+  ![issue tab](img/login.gif)
 #### 3. Creación de la ventana de registro:
   El activity_signup es practicamente lo mismo que login pero tiene un campo para repetir la contraseña y otro para introducir el email y al final un botón para
-  registrarse.
+  registrarse. Al pulsar el botón registrarse te lleva de nuevo a la ventana de login para ingresar en tu cuenta. Está ventana no contiene ningún efecto.
   
   ![issue tab](img/img_2.png)

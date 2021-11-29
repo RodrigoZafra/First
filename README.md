@@ -7,12 +7,14 @@
   con unos rayos de tormenta y debajo del logo el nombre de la aplicación que es **STORMING**. La fuente de la pantalla de splash es prisma.
   Al iniciar la aplicación tenemos una pequeña animación en el logo para que parpadee dando una sensación de tormenta y el fondo también es una tormenta para que todo
   sea esteticamente igual y tenga la misma temática. Para crear la animación he creado una carpeta en res llamada anim y dentro dos animated resource file con el código
-  necesario para crear la ![animacion](). La animación se puede observar en el gif siguiente:
+  necesario para crear la ![animación](app/src/main/res/anim/fadein.xml). La animación se puede observar en el gif siguiente:
   
   ![issue tab](img/splashScreen.gif)
 #### 2. Creación de la ventana de login:
   En el activity_login nos volvemos a encontrar con el icono del logo en la parte superior. También tenemos dos **TextInputLayaout** uno para el nombre de usuario y otro
   para la password. Justo debajo nos encontramos con dos botones uno para hacer el login y entrar a la aplicación y otro para registrarse en el caso de que no lo estes.
+  Está ventana tiene una ![animación](app/src/main/res/anim/rotate.xml) para que el logo baje de la parte superior con una pequeña rotación. De fondo de la ventana
+  tenemos un ![gradiente](app/src/main/res/anim/fadein.xml) desde un azul cyan hasta un fucsia y una imágen de una chica de fondo.
   
   ![issue tab](img/login.gif)
 #### 3. Creación de la ventana de registro:
@@ -20,3 +22,5 @@
   registrarse. Al pulsar el botón registrarse te lleva de nuevo a la ventana de login para ingresar en tu cuenta. Está ventana no contiene ningún efecto.
   
   ![issue tab](img/img_2.PNG)
+#### 4. Creación del main:
+  El activity_main 

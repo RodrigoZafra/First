@@ -2,6 +2,7 @@
 ## Rodrigo Zafra Pérez
 
 ### Pasos a seguir para desarrollar la práctica
+Todo el código de la aplicación se encuentra en la rama material login.
 #### 1. Creación de la ventana de splash:
   En el activity_splash lo que vamos a tener es una imágen de fondo que va a ocupar toda la pantalla, una imágen del logo de la aplicación que en este caso es una nube
   con unos rayos de tormenta y debajo del logo el nombre de la aplicación que es **STORMING**. La fuente de la pantalla de splash es prisma.

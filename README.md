@@ -29,4 +29,4 @@
   Como centro de la ventana tenemos una librería de imágenes y un swipeRefreshLayout para ir cambiando de imágen. Si dejamos pulsada la imágen nos sale un menú que nos 
   dice si queremos copiarla o descargarla. En el siguiente gif podemos observar todas las animaciones de la ventana.
   
-    ![issue tab](img/main.gif)
+  ![issue tab](img/main.gif)

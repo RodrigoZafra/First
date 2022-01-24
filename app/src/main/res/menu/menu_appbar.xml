@@ -21,4 +21,9 @@
         app:showAsAction="never"
         android:title="Other Accounts"/>
 
+    <item
+        android:id="@+id/menu_navigation"
+        app:showAsAction="never"
+        android:title="Menu Navigation"/>
+
 </menu>

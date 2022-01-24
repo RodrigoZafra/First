@@ -32,7 +32,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/white_transparent"
             android:hint="Username"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -53,7 +53,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/white_transparent"
             android:hint="Password"
             android:inputType="textPassword">
 
@@ -76,7 +76,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/white_transparent"
             android:hint="Email"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -95,7 +95,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/white_transparent"
             android:hint="Repeat password"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>

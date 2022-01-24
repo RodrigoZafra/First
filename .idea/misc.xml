@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable-anydpi/fav.xml" value="0.3828125" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable-anydpi/internet.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable-anydpi/menu_navegable.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/drawable/Thunder_background.xml" value="0.3828125" />
@@ -27,8 +28,14 @@
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main.xml" value="0.3202247191011236" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_main_bn.xml" value="0.36666666666666664" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_signup.xml" value="0.33" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/fragment_main_bn.xml" value="0.36666666666666664" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/fragment_page1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/fragment_page2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/layout/fragment_page3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/menu/button_navigation.xml" value="0.36666666666666664" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/menu/menu_appbar.xml" value="0.3398148148148148" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/menu/menu_context.xml" value="0.36666666666666664" />
         <entry key="..\:/Rodrigo y Mario/MyApplicationFirst/app/src/main/res/mipmap-anydpi-v26/Thunder.xml" value="0.23645833333333333" />

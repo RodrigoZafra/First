@@ -50,7 +50,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/white_transparent"
             android:hint="Username"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -71,7 +71,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/white_transparent"
             android:hint="Password"
             android:inputType="textPassword">
 
@@ -112,6 +112,7 @@
         android:layout_marginTop="10dp"
         android:text="@string/register_text"
         android:textSize="16sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/button" />

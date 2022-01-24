@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.first.myapplicationfirst">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,13 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationFirst">
         <activity
-            android:name=".Signup"
+            android:name=".MainBn"
             android:exported="true"
-            android:parentActivityName=".LoginActivity"/>
-        <activity
-            android:name=".SplashScreen"
-            android:exported="true"
-            android:theme="@style/NoActionTheme">
+            android:label="@string/title_activity_main_bn"
+            android:theme="@style/Theme.MyApplicationFirst.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,13 +23,29 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Signup"
+            android:exported="true"
+            android:parentActivityName=".LoginActivity">
+
+
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/NoActionTheme">
+            <!-- <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>-->
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:theme="@style/NoActionTheme">
-        </activity>
+            android:theme="@style/NoActionTheme"></activity>
     </application>
 
 </manifest>

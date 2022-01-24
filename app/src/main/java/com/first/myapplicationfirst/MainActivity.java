@@ -154,6 +154,12 @@ public class MainActivity extends AppCompatActivity {
             showAlertDialogButtonClicked(MainActivity.this);
         }
 
+        if (id == R.id.menu_navigation) {
+            Intent intent = new Intent(MainActivity.this, MainBn.class);
+            startActivity(intent);
+        }
+
+
         return super.onOptionsItemSelected(item);
     }
 }

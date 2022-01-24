@@ -34,7 +34,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/prisma"
-
         android:text="STORMING"
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationFirst">
         <activity
+            android:name=".SegundoTabbed"
+            android:exported="true"
+            android:label="@string/title_activity_segundo_tabbed"
+            android:theme="@style/Theme.MyApplicationFirst.NoActionBar" />
+        <activity
             android:name=".MainBn"
             android:exported="true"
             android:label="@string/title_activity_main_bn"
@@ -25,19 +30,19 @@
         <activity
             android:name=".Signup"
             android:exported="true"
-            android:parentActivityName=".LoginActivity">
-
-
-        </activity>
+            android:parentActivityName=".LoginActivity"></activity>
         <activity
             android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/NoActionTheme">
-            <!-- <intent-filter>
+
+            <!--
+             <intent-filter>
                  <action android:name="android.intent.action.MAIN" />
 
                  <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>-->
+             </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".MainActivity"
@@ -45,7 +50,7 @@
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:theme="@style/NoActionTheme"></activity>
+            android:theme="@style/NoActionTheme" />
     </application>
 
 </manifest>
